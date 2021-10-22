@@ -24,7 +24,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: quevedo
       MYSQL_DATABASE: CuentasApp
-      MYSQL_USER: root
+      MYSQL_USER: quevedo
       MYSQL_PASSWORD: quevedo
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
